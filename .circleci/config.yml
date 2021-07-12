@@ -56,4 +56,3 @@ workflows:
       - testlinks:
           requires:
             - build
-            - build
