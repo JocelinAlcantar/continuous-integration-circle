@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: build dependencies
-          command:  bundler install -v 2.11.2
+          command:  install bundler -v 2.11.2
 
       - run:
           name: build the jekyll site
