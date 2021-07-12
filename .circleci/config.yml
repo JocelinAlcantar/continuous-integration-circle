@@ -15,7 +15,7 @@ jobs:
 
       - run:
           name: build the jekyll site
-          command: gem install jekyll:2.2.9
+          command: gem install jekyll bundler
 
       - run:
           name: notify build is finished
