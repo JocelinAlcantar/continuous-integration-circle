@@ -1,3 +1,4 @@
+  
 version: 2.1
 executors:
   ci-executor:
@@ -54,4 +55,5 @@ workflows:
       - build
       - testlinks:
           requires:
+            - build
             - build
