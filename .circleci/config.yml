@@ -12,12 +12,3 @@ jobs:
       - run:
           name: Which bundler?
           command: gem install bundler:2.2.9
-          
-
-
-      build_and_test:
-    jobs:
-      - build
-      - testlinks:
-          requires:
-            - build
